@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { projectsData } from "../data/projectsData";
+import { motion } from "framer-motion";
 
 const Project = ({ projectNumber }) => {
   const [currentProject] = useState(projectsData[projectNumber]);
@@ -13,8 +14,38 @@ const Project = ({ projectNumber }) => {
     setSize("scale(" + (Math.random() + 0.7) + ")");
   }, []);
 
+  const variants = {
+    initial: {
+      opacity: 0,
+      transition: { duration: 0.5 },
+      x: 200,
+    },
+
+    visible: {
+      opacity: 1,
+      x: 0,
+    },
+    exit: {
+      opacity: 0.4,
+      transition: { duration: 0.35 },
+      x: -800,
+    },
+  };
+
+  const transition = {
+    ease: [0.03, 0.87, 0.73, 0.9],
+    duration: 0.6,
+  };
+
   return (
-    <div className="project-main">
+    <motion.div
+      className="project-main"
+      initial="initial"
+      animate="visible"
+      exit="exit"
+      transition={transition}
+      variants={variants}
+    >
       <div className="project-content">
         <h1>{currentProject.title}</h1>
         <p>{currentProject.date}</p>
@@ -43,7 +74,7 @@ const Project = ({ projectNumber }) => {
             href={currentProject.link}
             target="_blank"
             rel="noopener noreferrer"
-            class="hover"
+            className="hover"
           >
             <span className="button">Voir le site</span>
           </a>
@@ -53,7 +84,7 @@ const Project = ({ projectNumber }) => {
         className="random-circle"
         style={{ left, top, transform: size }}
       ></span>
-    </div>
+    </motion.div>
   );
 };
 
