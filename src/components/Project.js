@@ -37,6 +37,20 @@ const Project = ({ projectNumber }) => {
     duration: 0.6,
   };
 
+  const imgAnim = {
+    initial: {
+      opacity: 0,
+
+      x: Math.floor(Math.random() * 350 * (Math.random() > 0.4 ? 1 : -1)),
+      y: Math.floor(Math.random() * 120 * (Math.random() > 0.4 ? 1 : -1)),
+    },
+    visible: {
+      opacity: 1,
+      x: 0,
+      y: 0,
+    },
+  };
+
   return (
     <motion.div
       className="project-main"
@@ -56,7 +70,13 @@ const Project = ({ projectNumber }) => {
           ))}
         </ul>
       </div>
-      <div className="img-content">
+      <motion.div
+        initial="initial"
+        animate="visible"
+        variants={imgAnim}
+        transition={{ duration: 1.2 }}
+        className="img-content"
+      >
         <div className="img-container hover">
           <span>
             <h3>{currentProject.title}</h3>
@@ -79,7 +99,7 @@ const Project = ({ projectNumber }) => {
             <span className="button">Voir le site</span>
           </a>
         </div>
-      </div>
+      </motion.div>
       <span
         className="random-circle"
         style={{ left, top, transform: size }}
