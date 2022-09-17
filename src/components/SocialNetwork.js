@@ -6,8 +6,9 @@ const SocialNetwork = () => {
 
     icons.forEach((link) => {
       link.addEventListener("mouseover", (e) => {
-        link.style.transform = `translate(${e.offsetX - 20}px,
-     ${e.offsetY - 13}px)`;
+        link.style.transform = `translate(${e.offsetX - 20}px, ${
+          e.offsetY - 13
+        }px)`;
       });
 
       link.addEventListener("mouseleave", () => {
@@ -27,10 +28,9 @@ const SocialNetwork = () => {
           onMouseOver={anim}
         >
           <li>
-            <i className="fa-brands fa-facebook"></i>
+            <i className="fab fa-facebook-f"></i>
           </li>
         </a>
-
         <a
           href="https://www.twitter.com"
           target="_blank"
@@ -39,10 +39,9 @@ const SocialNetwork = () => {
           onMouseOver={anim}
         >
           <li>
-            <i className="fa-brands fa-twitter"></i>
+            <i className="fab fa-twitter"></i>
           </li>
         </a>
-
         <a
           href="https://www.instagram.com"
           target="_blank"
@@ -51,7 +50,7 @@ const SocialNetwork = () => {
           onMouseOver={anim}
         >
           <li>
-            <i className="fa-brands fa-instagram"></i>
+            <i className="fab fa-instagram"></i>
           </li>
         </a>
       </ul>
@@ -60,3 +59,4 @@ const SocialNetwork = () => {
 };
 
 export default SocialNetwork;
+

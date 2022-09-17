@@ -1,6 +1,4 @@
 .social-network {
-  overflow: invisible;
-
   position: absolute;
   right: 1rem;
   top: 0;
@@ -24,13 +22,6 @@
     a {
       padding: 1rem;
       transition: 1.1s ease-out;
-     
     }
   }
-
-  a:hover {
-    overflow: visible;
-  }
-
-
 }

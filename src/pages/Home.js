@@ -50,7 +50,7 @@ const Home = () => {
                 bottom: 250,
               }}
             >
-              Développement Codable
+              Indé-Codable
             </motion.h1>
             <motion.h2
               drag

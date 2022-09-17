@@ -66,14 +66,14 @@ const Contact = () => {
                   className="clipboard"
                   onClick={() => alert("email copié !")}
                 >
-                  DC@gmail.com
+                  julienpetit1@gmail.com
                 </p>
               </CopyToClipboard>
             </div>
           </div>
           <SocialNetwork />
           <div className="credits">
-            <p>Développement Codable - 2022</p>
+            <p>Indé-Codable - 2022</p>
           </div>
         </div>
         <Buttons left={"/projet-4"} />

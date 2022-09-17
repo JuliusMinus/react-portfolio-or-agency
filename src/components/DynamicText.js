@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 const DynamicText = () => {
   useEffect(() => {
     const target = document.getElementById("text-target");
-    let array = ["simple", "clear", "smart", "strong"];
+    let array = ["rapide", "clair", "efficace", "simple"];
     let wordIndex = 0;
     let letterIndex = 0;
 
@@ -18,7 +18,7 @@ const DynamicText = () => {
 
       setTimeout(() => {
         letter.remove();
-      }, 2500);
+      }, 3000);
     };
 
     const loop = () => {
@@ -34,16 +34,16 @@ const DynamicText = () => {
         } else {
           letterIndex = 0;
           wordIndex++;
-          setTimeout(loop, 2500);
+          setTimeout(loop, 3000);
         }
-      }, 80);
+      }, 100);
     };
     loop();
   }, []);
 
   return (
     <span className="dynamic-text">
-      <span>simply</span>
+      <span>Le code</span>
       <span id="text-target"></span>
     </span>
   );
