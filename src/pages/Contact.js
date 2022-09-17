@@ -17,7 +17,7 @@ const Contact = () => {
 
     out: {
       opacity: 0,
-      x: 200,
+      x: 100,
     },
   };
 
@@ -29,7 +29,7 @@ const Contact = () => {
         animate="in"
         exit="out"
         variants={pageTransition}
-        transition={{ duration: 0.6 }}
+        transition={{ duration: 0.5 }}
         className="contact"
       >
         <Navigation />

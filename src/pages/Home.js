@@ -5,6 +5,7 @@ import Mouse from "../components/Mouse";
 import Navigation from "../components/Navigation";
 import SocialNetwork from "../components/SocialNetwork";
 import { motion } from "framer-motion";
+import Cube from "../components/Cube";
 
 const Home = () => {
   const variants = {
@@ -35,6 +36,7 @@ const Home = () => {
         variants={variants}
       >
         <Navigation />
+
         <SocialNetwork />
         <div className="home-main">
           <div className="main-content">
@@ -61,6 +63,7 @@ const Home = () => {
               }}
             >
               <DynamicText />
+              <Cube />
             </motion.h2>
           </div>
         </div>

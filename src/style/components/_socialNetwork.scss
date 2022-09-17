@@ -1,5 +1,5 @@
 .social-network {
-  
+  overflow: invisible;
 
   position: absolute;
   right: 1rem;
@@ -27,4 +27,10 @@
      
     }
   }
+
+  a:hover {
+    overflow: visible;
+  }
+
+
 }
