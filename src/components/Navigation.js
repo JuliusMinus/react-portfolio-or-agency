@@ -9,11 +9,11 @@ const Navigation = () => {
           to="/"
           className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}
         >
-          <li>acceuil</li>
+          <li>Acceuil</li>
         </NavLink>
 
         <li className="nav-portfolio">
-          portfolio
+          Portfolio
           <ul className="nav-projects">
           
           <NavLink
@@ -53,7 +53,7 @@ const Navigation = () => {
           to="/contact"
           className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}
         >
-          <li>contact</li>
+          <li>Contact</li>
         </NavLink>
 
         

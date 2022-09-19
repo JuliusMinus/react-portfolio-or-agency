@@ -24,13 +24,6 @@ $red: rgb(221, 79, 79);
 // $black: rgb(40, 40, 40);
 // $red: rgb(253, 87, 87);
 
-
-
-
-
-
-
-
 * {
   margin: 0;
   padding: 0;
@@ -49,11 +42,14 @@ html {
   scroll-behavior: unset;
 }
 
-
 a,
 a:visited {
   color: $color-4;
-  }
+  
+
+}
+
+
 
 body {
   font-family: $font-1;

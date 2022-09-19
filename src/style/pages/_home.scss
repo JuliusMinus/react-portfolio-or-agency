@@ -3,6 +3,12 @@
   width: 100vw;
   position: absolute;
 
+  background-image: url(../components/background3.jpg);
+
+ 
+
+  
+
   &:after {
     content: "";
     height: 800px;
@@ -40,8 +46,12 @@
     justify-items: center;
     height: 95%;
 
+
+
     .main-content {
       user-select: none;
+
+      
 
       h1 {
         font-size: 3.7rem;

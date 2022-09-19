@@ -9,6 +9,7 @@ import Project4 from "./pages/Project4";
 import NotFound from "./pages/NotFound";
 import { AnimatePresence } from "framer-motion";
 
+
 const App = () => {
   return (
     <BrowserRouter>
