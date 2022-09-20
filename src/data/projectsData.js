@@ -7,7 +7,7 @@ export const projectsData = [
     infos:
       "Reservia est un prototype de site de réservation d'hôtels en ligne.",
     img: "./assets/img/Reservia-screen.png",
-    link: "http://www.google.com",
+    link: "https://juliusminus.github.io/PetitJulien_P2_06082021/",
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ export const projectsData = [
     infos:
       "Oh my Food ! est un prototype de plate-forme de réservation en ligne destinée aux restaurants.",
     img: "./assets/img/Ohmyfood-screen.png",
-    link: "http://www.google.com",
+    link: "https://juliusminus.github.io/PetitJulien_P3_08092021/public/",
   },
   {
     id: 3,
