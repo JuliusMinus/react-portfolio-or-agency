@@ -26,7 +26,7 @@ export const projectsData = [
     languages: ["Seo", "Accesibilité", "Performances"],
     infos: "Améliorations de différents aspects d'un site Web déjà existant.",
     img: "./assets/img/chouetteagence-screen.png",
-    link: "http://www.google.com",
+    link: " https://juliusminus.github.io/P4_Julien_Petit__New_Site/",
   },
   {
     id: 4,
@@ -35,7 +35,7 @@ export const projectsData = [
     languages: ["JavaScript", "Node.js", "Test unitaire"],
     infos: "Prototype de MVP d'un site d'e-commerce.",
     img: "./assets/img/kanap-sceen.png",
-    link: "http://www.google.com",
+    link: " https://juliusminus.github.io/P5_julien_Petit_Kanap/",
   },
 
   {
@@ -45,7 +45,7 @@ export const projectsData = [
     languages: ["Node.js", "Express.js", "MongoDB"],
     infos: "Création d'une API REST.",
     img: "./assets/img/Hottakes-screen.png",
-    link: "http://www.google.com",
+    link: "https://github.com/JuliusMinus/P6-SPICY_SAUCES.git",
   },
 
   {
@@ -56,7 +56,7 @@ export const projectsData = [
     infos:
       "Projet Full-Stack. Création d'un prototype de réseau social d'entreprise.",
     img: "./assets/img/Groupomania-screen.png",
-    link: "http://www.google.com",
+    link: "https://github.com/JuliusMinus/P7_SOCIAL_NETWORK.git",
   },
 
   {
