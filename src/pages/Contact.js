@@ -76,7 +76,7 @@ const Contact = () => {
             <p>Indé-Codable - 2022</p>
           </div>
         </div>
-        <Buttons left={"/projet-4"} />
+        <Buttons left={"/projet-8"} />
       </motion.div>
     </main>
   );

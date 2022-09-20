@@ -1,42 +1,83 @@
 export const projectsData = [
   {
     id: 1,
-    title: "Casta",
-    date: "Janvier 2020",
-    languages: ["React", "Php", "Sass"],
+    title: "Reservia",
+    date: "2021",
+    languages: ["Html", "Css", "Full responsive"],
     infos:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
-    img: "./assets/img/projet-2.jpg",
+      "Reservia est un prototype de site de réservation d'hôtels en ligne.",
+    img: "./assets/img/Reservia-screen.png",
     link: "http://www.google.com",
   },
   {
     id: 2,
-    title: "Lyon Béton",
-    date: "Mars 2020",
-    languages: ["Symfony", "Vue"],
+    title: "Oh my food ! ",
+    date: "2021",
+    languages: ["Sass", "Mobile first"],
     infos:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
-    img: "./assets/img/projet-1.jpg",
+      "Oh my Food ! est un prototype de plate-forme de réservation en ligne destinée aux restaurants.",
+    img: "./assets/img/Ohmyfood-screen.png",
     link: "http://www.google.com",
   },
   {
     id: 3,
-    title: "Everpost",
-    date: "Avril 2020",
-    languages: ["Wordpress", "Php", "React"],
-    infos:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
-    img: "./assets/img/projet-3.jpg",
+    title: "La Chouette Agence",
+    date: "2021",
+    languages: ["Seo", "Accesibilité", "Performances"],
+    infos: "Améliorations de différents aspects d'un site Web déjà existant.",
+    img: "./assets/img/chouetteagence-screen.png",
     link: "http://www.google.com",
   },
   {
     id: 4,
-    title: "Creative Dev",
-    date: "Juillet 2020",
-    languages: ["Vue", "Php"],
+    title: "Kanap",
+    date: "2021",
+    languages: ["JavaScript", "Node.js", "Test unitaire"],
+    infos: "Prototype de MVP d'un site d'e-commerce.",
+    img: "./assets/img/kanap-sceen.png",
+    link: "http://www.google.com",
+  },
+
+  {
+    id: 5,
+    title: "Hot Takes !",
+    date: "2022",
+    languages: ["Node.js", "Express.js", "MongoDB"],
+    infos: "Création d'une API REST.",
+    img: "./assets/img/Hottakes-screen.png",
+    link: "http://www.google.com",
+  },
+
+  {
+    id: 6,
+    title: "Groupomania",
+    date: "2022",
+    languages: ["Vus.js", "JavaScript", "Express.js", "MySql"],
     infos:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
-    img: "./assets/img/projet-4.jpg",
+      "Projet Full-Stack. Création d'un prototype de réseau social d'entreprise.",
+    img: "./assets/img/Groupomania-screen.png",
+    link: "http://www.google.com",
+  },
+
+  {
+    id: 7,
+    title: "App Flag",
+    date: "2022",
+    languages: ["React.js", "JavaScript", "Sass"],
+    infos:
+      "Application Web recensant à l'aide d'une API tous les pays du globe et leurs spécificités",
+    img: "./assets/img/App-flag-screen.png",
+    link: "http://www.google.com",
+  },
+
+  {
+    id: 8,
+    title: "Password Generator",
+    date: "2022",
+    languages: ["JavaScript", "Sass"],
+    infos:
+      "Un générateur de mot de passe complet et intégrable aux formulaires.",
+    img: "./assets/img/Password-Generator-screen.png",
     link: "http://www.google.com",
   },
 ];

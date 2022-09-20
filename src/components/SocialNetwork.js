@@ -23,7 +23,7 @@ const SocialNetwork = () => {
     <div className="social-network">
       <ul className="content">
         <a
-          href="https://www.facebook.com"
+          href="https://www.facebook.com/julien.petit.julius.minus"
           target="_blank"
           rel="noopener noreferrer"
           className="hover"
