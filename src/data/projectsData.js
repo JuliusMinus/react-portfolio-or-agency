@@ -40,7 +40,7 @@ export const projectsData = [
 
   {
     id: 5,
-    title: "Hot Takes !",
+    title: "Hot Takes",
     date: "2022",
     languages: ["Node.js", "Express.js", "MongoDB"],
     infos: "Création d'une API REST.",

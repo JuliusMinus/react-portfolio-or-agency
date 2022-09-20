@@ -38,14 +38,14 @@ const Contact = () => {
         <div className="contact-infos">
           <div className="adress">
             <div className="content">
-              <h4>adresse</h4>
+              <h4>Adresse</h4>
               <p>27 rue Trébois</p>
               <p>92300 Levallois-Perret</p>
             </div>
           </div>
           <div className="phone">
             <div className="content">
-              <h4>téléphone</h4>
+              <h4>Téléphone</h4>
               <CopyToClipboard text="0650559720" className="hover">
                 <p
                   style={{ cursor: "pointer " }}
@@ -59,8 +59,8 @@ const Contact = () => {
           </div>
           <div className="email">
             <div className="content">
-              <h4>email</h4>
-              <CopyToClipboard text="DC@gmail.com" className="hover">
+              <h4>Email</h4>
+              <CopyToClipboard text="julienpetit1@gmail.com" className="hover">
                 <p
                   style={{ cursor: "pointer " }}
                   className="clipboard"
