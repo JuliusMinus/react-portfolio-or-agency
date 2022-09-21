@@ -63,8 +63,12 @@ const Home = () => {
               }}
             >
               <DynamicText /> 
+              
+              
               </motion.h2>
-              <Cube />
+
+              
+               <Cube />
            
           </div>
         </div>

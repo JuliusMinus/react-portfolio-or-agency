@@ -3,7 +3,7 @@
   width: 100vw;
   position: absolute;
 
-  background-image: url(../components/background3.jpg);
+  background-image: url(../components/background3.jpg) center/cover;
 
   &:after {
     content: "";
@@ -88,6 +88,8 @@
       h2 {
         font-size: 4.2rem;
         font-weight: 100;
+        
+      
 
         @media screen and (max-width: 650px) {
           font-size: 2rem;
