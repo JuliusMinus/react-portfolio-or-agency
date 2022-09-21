@@ -67,17 +67,16 @@ export const projectsData = [
     infos:
       "Application Web recensant à l'aide d'une API tous les pays du globe et leurs spécificités",
     img: "./assets/img/App-flag-screen.png",
-    link: "http://www.google.com",
+    link: "https://flag-app-react-2.netlify.app",
   },
 
   {
     id: 8,
-    title: "Password Generator",
+    title: "App movies",
     date: "2022",
-    languages: ["JavaScript", "Sass"],
-    infos:
-      "Un générateur de mot de passe complet et intégrable aux formulaires.",
-    img: "./assets/img/Password-Generator-screen.png",
-    link: "http://www.google.com",
+    languages: ["React", "JavaScript", "Sass"],
+    infos: "Application web de recherche de films type'Allo-ciné'.",
+    img: "./assets/img/app-movies-screen.png",
+    link: "https://app-movies-react-1.netlify.app",
   },
 ];

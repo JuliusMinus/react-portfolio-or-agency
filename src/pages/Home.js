@@ -62,9 +62,10 @@ const Home = () => {
                 bottom: 250,
               }}
             >
-              <DynamicText />
+              <DynamicText /> 
+              </motion.h2>
               <Cube />
-            </motion.h2>
+           
           </div>
         </div>
 
